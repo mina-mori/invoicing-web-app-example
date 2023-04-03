@@ -1,0 +1,42 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+
+  .data-container {
+    width: 100%;
+    margin-top: 1rem;
+    .invoice-item-header {
+      margin-top: 5px;
+      display: flex;
+      justify-content: space-between;
+    }
+    label {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    textarea,
+    input,
+    select {
+      box-sizing: border-box;
+      margin-top: 5px;
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+    .buttons {
+      text-align: right;
+      button {
+        margin-top: 5px;
+        margin-left: 2px;
+      }
+    }
+  }
+}
