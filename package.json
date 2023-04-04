@@ -1,6 +1,6 @@
 {
   "name": "my-invoicing-app",
-  "homepage": "https://mina-mori.github.io/invoicing-web-app-example/",
+  "homepage": "http://mina-mori.github.io/invoicing-web-app-example/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
